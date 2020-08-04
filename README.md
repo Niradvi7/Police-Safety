@@ -9,11 +9,11 @@ Movable kiosk containing alcohol detector to ensure social distancing while chec
 
 ## Working:
 1. When a person approaches kiosk, an ultrasonic sensor detects the distance between person and kiosk and if the distance is measured to be less than 30cms then 'white' lights are turned ON
-2. LCD display keeps showing instructions to be followed
+2. LCD display keeps showing instructions to be followed throughout
 3. When the person is less than 3cms from the kiosk(measured by ultrasonic sensor), 'green' light turns ON indicating ready to blow
 4. When beep sound is produced by buzzer, the person should blow into alcohol detector which is marked by an arrow sign
-5. A series of red lights indicate intensity of alcohol
-6. LCD display shows ;evel of consumption on a scale of 0-10
+5. A series of 'red' lights indicate intensity of alcohol
+6. LCD display shows level of consumption on a scale of 0-10
 
 ### Guidelines to install libraries used:
 Open arduino IDE and click 'Sketch'>'Include Library'>'Manage Libraries';
