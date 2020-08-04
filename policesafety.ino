@@ -107,7 +107,16 @@ void loop()
       }
     }
     delay(100);
-    //displays level on consumption on LCD depending on amount of alcohol detected
+    //displays level on consumption on a scale of 0-10 on LCD display
+    if(level<23)
+    {
+      lcd.begin(16, 2);
+      lcd.setCursor(2,0);
+      lcd.print("CONSUMPTION");
+      lcd.setCursor(4,1);
+      lcd.print("LEVEL 0");
+      delay(500);
+    }
     if(level>=23 && level<25)
     {
       lcd.begin(16, 2);
