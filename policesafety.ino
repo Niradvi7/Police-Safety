@@ -34,6 +34,7 @@ void setup()
   pinMode(9, OUTPUT);
   pinMode(10, OUTPUT);
   pinMode(11, OUTPUT);
+  pinMode(12, OUTPUT);
   pinMode(13, OUTPUT);
   lcd.begin(16,2);
 }
@@ -53,6 +54,7 @@ void loop()
   analogWrite(9,0);
   analogWrite(10,0);
   analogWrite(11,0);
+  analogWrite(12,0);
   analogWrite(5,0);
   if(distance<30 && distance>5)//when person approaches kiosk
   {
@@ -91,15 +93,19 @@ void loop()
         if(level>25)
         {
          digitalWrite(8, HIGH);
-         if(level>35)
+         if(level>30)
          {
           digitalWrite(9, HIGH);
-          if(level>60)
+          if(level>40)
           {
             digitalWrite(10, HIGH);
-            if(level>100)
+            if(level>70)
             {
               digitalWrite(11, HIGH);
+              if(level>100)
+              {
+                digitalWrite(12,HIGH);
+              }
             }
           }
          }
