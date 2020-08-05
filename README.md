@@ -1,5 +1,5 @@
 # Police Safety
-Movable kiosk containing alcohol detector to ensure social distancing while checking level of alcohol consumed
+Movable kiosk containing alcohol detector to ensure social distancing while checking drunken driving
 
 ## Project design:
 1. A movable kiosk is placed near police van to check drunken driving. When a person appraoches the kiosk, white lights turn ON
