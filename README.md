@@ -1,11 +1,5 @@
 # Police Safety
-Movable kiosk containing alcohol detector to ensure social distancing while checking level of alcohol consumed. 
-
-## Project Design:
->When person approaches kiosk, 'white' lights turn ON
->>When person is less than 5cm from kiosk, 'green' light turns ON followed by beep sound indicating 'Ready to blow'
->>>Series of lights indicate intensity of alcohol
->>>>A LCD display shows instructions and also level of consumption on a scale of 0-10
+Movable kiosk containing alcohol detector to ensure social distancing while checking level of alcohol consumed
 
 ## Working:
 1. When a person approaches kiosk, an ultrasonic sensor detects the distance between person and kiosk and if the distance is measured to be less than 30cms then 'white' lights are turned ON
