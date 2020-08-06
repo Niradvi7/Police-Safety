@@ -2,9 +2,9 @@
 Movable kiosk containing alcohol detector to ensure social distancing while checking drunken driving
 
 ## Project design:
-1. A movable kiosk is placed near police van to check drunken driving. When a person appraoches the kiosk, white lights turn ON
-2. LCD displays instructions to be followed throughout
-3. When the person is less than 3cms from kiosk, grren lights turns ON followed by a beep sound. The person should blow into alcohol detector indicated by the 'Blow Here' sign
+1. A movable kiosk is placed near police van to check drunken driving. It has a compartment where you can store disposable mouthpieces and other things. 
+2. When a person appraoches the kiosk, white lights turn ON and the LCD displays instructions to be followed throughout
+3. When the person is less than 3cms from kiosk, green lights turns ON followed by a beep sound. The person should blow into mouthpiece of alcohol detector indicated by the 'Blow Here' sign
 4. A series of lights indicate alcohol intensity and LCD displays the level of consumption on a level of 0-10
 
 ## Working:
